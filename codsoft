@@ -1,0 +1,19 @@
+print("Simple Calculator")
+num1=float(input("Enter First Number : "))
+num2=float(input("Enter Second Number : "))
+print("Select Operation : \n1.Add \n2.Subtract \n3.Multiply \n4.Divide")
+choice=input("Enter Your Choice (1/2/3/4)")
+if choice == '1':
+    print("Addition of",num1,"and",num2)
+    print(num1+num2)
+elif choice == '2':
+    print("Subtraction of",num1, "and",num2)
+    print(num1-num2)
+elif choice == '3':
+    print("Multipication of",num1,"and",num2)
+    print(num1*num2)
+elif choice == '4':
+    print("Division of",num1,"and",num2)
+    print(num1/num2)
+else :
+    print("INVALID CHOICE")
